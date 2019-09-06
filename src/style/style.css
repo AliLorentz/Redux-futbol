@@ -1,0 +1,93 @@
+body{
+	background: #0B3954	;
+	color: white;
+}
+
+.contenedor-jugadores{
+	display: flex;
+	justify-content: space-around;
+}
+
+.contenedor-jugadores img{
+	border-radius: 100%;
+	border:4px solid white;
+	width: 100px;
+	margin-bottom: -20px;
+}
+
+.jugador{
+	text-align: center;
+
+}
+
+.contenedor-jugadores button{
+	font-size: 18px;
+	width: 90px;
+	background: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	margin: 5px;
+
+}
+
+.contenedor-jugadores button:hover{
+	background: white;
+	cursor: pointer;
+	color: black;
+}
+.cancha{
+	display: flex;
+	justify-content: space-around;
+}
+
+.titular{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.titular img{
+	border-radius: 100%;
+	border:4px solid white;
+	width: 100px;
+}
+
+.titular button{
+	background: #E51D2E;
+	color: white;
+	border-radius: 100%;
+	width: 20px;
+	text-align: center;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.suplentes{
+	display: flex;
+	justify-content: space-around;
+}
+
+.suplente{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.suplente img{
+	border-radius: 100%;
+	border:4px solid white;
+	width: 100px;
+}
+
+.suplente button{
+	background: #E51D2E;
+	color: white;
+	border-radius: 100%;
+	width: 20px;
+	text-align: center;
+	border: 1px solid white;
+	cursor: pointer;
+}
